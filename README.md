@@ -12,7 +12,7 @@ Determining the coordinates of the effectors: The coordinates of each joint are 
 
 Then, using the given knowledge of the lengths of the arm segments, the position of the lipstick holder and the final end effector position are determined and returned as (x,y,z) coordinate.
 
-The U1 angle rotation (about z-axis) is handled last, as the only coordiantes that are affected are (x,y) - hence the x-coordinate had to be determinied first.
+The U1 pivot rotation (about z-axis) is handled last, as the only coordiantes that are affected are (x,y) - hence the x-coordinate had to be determinied first.
 
 Regarding the collision detection: Since links are treated as having zero thickness, collision detection is performed by checking whether any part of the arm moves below the floor (z = 0).
 
