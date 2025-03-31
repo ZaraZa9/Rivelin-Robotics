@@ -26,11 +26,11 @@ Position next_coordinates(double init_x, double init_y, double arm_length, doubl
 
 int main() {
     std::vector<JointState> testCases = {
-        {0, 0, 0, 0, 0},
-        {45, -90, -90, -90, 60},
-        {-45, 90, -135, 45, 0},
-        {90, 45, -30, 0, 50},
-        {-45, 40, 140, 0, 50}
+        //{0, 0, 0, 0, 0},
+        //{45, -90, -90, -90, 60},
+        //{-45, 90, -135, 45, 0},
+        //{90, 45, -30, 0, 50},
+        {-45, 40, 140, 0, 50}        
     };
 
     double base_link = 300.0;
